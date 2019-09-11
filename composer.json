@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.1",
         "illuminate/support": "6.0.*",
-        "appzcoder/crud-generator": "3.0.*",
+        "appzcoder/crud-generator": "dev-master#v3.0.8",
         "laravelcollective/html": "6.0.*",
         "spatie/laravel-activitylog": "3.8.*"
     },
@@ -35,6 +35,12 @@
             "providers": [
                 "Appzcoder\\LaravelAdmin\\LaravelAdminServiceProvider"
             ]
+        }
+    },
+    "repositories": {
+        "appzcoder/crud-generator": {
+            "type": "github",
+            "url": "https://github.com/authanram/crud-generator.git"
         }
     }
 }
